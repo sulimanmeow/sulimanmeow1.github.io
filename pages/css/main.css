@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: #e1dfe0;
+    
+    
+}
+
+#site-name {
+    text-indent: -9999px;
+    width: 100px;
+    height: 0px;
+    
+}
+.top-container{
+    background: #e8e8e8;
+}
+
+.top-container::after{
+   content: " ";
+    clear: both;
+    display: block;
+}
+
+.logost{
+    float: left;
+    margin-left: 20px;
+    
+    
+}
+
+.searchco{
+    
+    float: right;
+   margin-top: 25px;
+    width: 520px;
+    margin-right: 100px;
+    
+    
+}
+
+
+input[type="text"]{
+    
+    background: white;
+    border: 0;
+    width: 500px;
+    height: 30px;
+    border-radius: 55px;
+    text-indent: 20px;
+}
+
+.navst{
+    background: #d2d0d1;
+    padding: 14px;
+}
+
+.navst ul li{
+    display: inline-block
+}
+
+.navst ul li a {
+    text-decoration: none;
+    color: #2e2e2e;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    
+}
+}
+.navst ul li a:visited{
+  text-decoration: underline;
+    font-weight: Bold;
+}
+
+.navst ul li a:hover{
+  text-decoration: underline;
+    
+}
+
+h1{
+   padding-left: 10px;
+    
+    font-size: 36px;
+    font-family: serif;
+    color: #2e2e2e;
+    margin-bottom: 20px;
+}
+h2{
+     
+    padding-left: 30px;
+    padding-top: 140px;
+    font-size: 28px;
+    font-family: serif;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+}
+
+.paracont{
+    
+   background: #d2d0d1;
+    margin-bottom: 30px;
+}
+.paracont2{
+    
+   background: #d2d0d1;
+    margin-bottom: 170px;
+    border: solid;
+    border-color: #2e2e2e;
+}
+.img1{
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+    
+}
+.img2{
+    float: right;
+    margin-left: 5px;
+    margin-right: 20px;
+    
+}
+p{
+ margin-left: 20px;
+    
+}
+
+
+.footerst{
+    padding: 50px;
+    background-color: #2e2e2e; 
+}
+.footerst::after{
+     content: " ";
+    clear: both;
+    display: block;
+     
+}
+.img3{
+    float: right;
+    padding-right: 10px;
+}
+
+.img3:hover{
+    opacity: 0.5;
+}
+
+h3{
+    color: white;
+}
+
+.footerst ul li{
+    color: white;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+.list1{
+    list-style-image: url('../pics/envelope.png')
+    
+    
+}
+.list2{
+        list-style-image: url('../pics/phone.png')
+        
+   
+    
+}
